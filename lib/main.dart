@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:playground/image_picker_view.dart';
 import 'package:playground/my_text_form.dart';
+import 'package:playground/hero_view.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Playground',
       theme: new ThemeData(
         primarySwatch: Colors.green,
+        fontFamily: 'Hiragino Kaku Gothic ProN',
       ),
       home: MainView(),
     );
@@ -50,7 +52,16 @@ class MainViewState extends State<MainView> {
                 return MyTextFormView();
               }));
             },
-          )
+          ),
+          Divider(),
+          ListTile(
+              title: Text('Heroアニメーション'),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return HeroView();
+                }));
+              }),
+          Divider(),
         ],
       ),
     );
