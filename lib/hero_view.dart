@@ -55,6 +55,26 @@ class HeroCell extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.all(5.0),
+            // Heroクラス
+            child: Hero(
+              tag: imageTag,
+              child: Image.asset(
+                imageName,
+                width: 80.0,
+                height: 80.0,
+              ),
+            ),
+          ),
+          Expanded(
+            child: Text(this.title),
+          )
+        ]);
     return GestureDetector(
       onTap: () {
         if (onTap != null) {

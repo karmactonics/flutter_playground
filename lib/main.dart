@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:playground/image_picker_view.dart';
 import 'package:playground/my_text_form.dart';
 import 'package:playground/hero_view.dart';
+import 'package:playground/tutorial.dart';
 
 void main() => runApp(new MyApp());
 
@@ -62,6 +63,14 @@ class MainViewState extends State<MainView> {
                 }));
               }),
           Divider(),
+          ListTile(            
+              title: Text('チュートリアル風画面'),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return Tutorial();
+                }));
+              }),
+
         ],
       ),
     );
