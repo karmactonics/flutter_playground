@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../flutter_local_packages/firebase_admob/android/firebase_admob.iml" filepath="$PROJECT_DIR$/../../flutter_local_packages/firebase_admob/android/firebase_admob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../flutter_local_packages/firebase_admob_platform_view/android/firebase_admob_platform_view.iml" filepath="$PROJECT_DIR$/../../flutter_local_packages/firebase_admob_platform_view/android/firebase_admob_platform_view.iml" />
+      <module fileurl="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.10/android/image_picker.iml" filepath="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.10/android/image_picker.iml" />
+      <module fileurl="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider-0.4.1/android/path_provider.iml" filepath="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/path_provider-0.4.1/android/path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../test_platform_view/android/test_platform_view.iml" filepath="$PROJECT_DIR$/../../test_platform_view/android/test_platform_view.iml" />
+    </modules>
+  </component>
+</project>
